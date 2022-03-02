@@ -49,7 +49,7 @@ form.search::after {
 
 .but {
     width: 220px;
-    height: 50px;
+    height: 41px;
     border: none;
     outline: none;
     color: rgb(0, 0, 0);
@@ -105,4 +105,32 @@ form.search::after {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+.warper {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.search {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 700px;
+    height: 40px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    vertical-align:top;
+    width:660px;
+    height:250px;
+}
+
+.searchBox {
+    width: 700px;
 }
