@@ -134,3 +134,8 @@ form.search::after {
 .searchBox {
     width: 700px;
 }
+
+#resultsDiv {
+    width: auto;
+    height: auto;
+}
