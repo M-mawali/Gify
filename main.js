@@ -24,4 +24,4 @@ function searchGify(){
 
 
 // function to clean the results by new search 
-// how to show more than 1 result 
+// Amjad is here
