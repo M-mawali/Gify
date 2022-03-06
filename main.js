@@ -20,9 +20,3 @@ function searchGify(userInput= document.getElementById("input").value){
 })
 }
 
-
-// function to clean the results by new search
-// Amjad is here
-// push to the new branch 
-// Mhd is here
-
