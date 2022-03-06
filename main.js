@@ -1,10 +1,7 @@
-let resultsDiv = document.getElementById("resultsDiv")
+let resultsDiv = document.getElementById("resultsDiv")   
 // function geting data from the giphy website using the api and linking it with the search 
-var userInput = document.getElementById("input").value
-    console.log(userInput)
-function searchGify(userinput){
+function searchGify(userInput= document.getElementById("input").value){
     resultsDiv.innerHTML = " "
-
     var giphyApiKey = "zvT1Y2w1i19IByqtSXJlUBc9t2lShQDR"
     var giphyApiUrl = `https://api.giphy.com/v1/gifs/search?q=${userInput}&rating=g&api_key=${giphyApiKey}&limit=15`
     
