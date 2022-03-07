@@ -8,14 +8,15 @@
     <title>Gify</title>
     
 </head>
-<body>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <div class="title" id="title">
         <h1>Gify</h1>
     </div>
         <div class="warper">
-            <div class="search" style="margin:auto;max-width:800px">
+            <div class="search"  style="margin:auto;max-width:800px">
                 <input type="text" placeholder="Search.." name="search2" class="searchBox" id="input">
-                <button onclick="searchGify()"><i class="fa fa-search"></i>GifyMe</button>
+                <div class="sbtn"><button onclick="searchGify()"><span class="GifyMe">GifyMe</span></button></div>
+                
             </div>
 
             <div class="buttons" >
@@ -23,9 +24,7 @@
                 <button class="but" onclick="searchGify(2022)" >2022!</button>
             </div>
     </div>
-</body>
 <div id="resultsDiv">
-    
 </div>
 <script src="./main.js"></script>
 </html>
