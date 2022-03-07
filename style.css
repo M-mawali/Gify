@@ -109,16 +109,21 @@ body {
     width: 700px;
     font-family: "lobster", cursive;
     color: teal;
-    background-color: rgb(191,191,191);
     font-size: 28px;
 }
 
 #resultsDiv {
     width: auto;
     height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    columns: 3;
+    column-gap: 1em;
+    row-gap: 3em;
 }
-
-
 .GifyMe {
     font-size: 28px;
     font-family: 'Lobster', cursive;
