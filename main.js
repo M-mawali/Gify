@@ -14,6 +14,7 @@ function searchGify(userInput= document.getElementById("input").value){
             console.log(obj.images.fixed_height.url)
         var imgPath= obj.images.fixed_height.url
         var img = document.createElement("img")
+        img.className ="list"
         img.setAttribute("src", imgPath)
         resultsDiv.appendChild(img)
     })
